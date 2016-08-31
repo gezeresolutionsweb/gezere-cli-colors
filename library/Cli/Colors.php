@@ -28,7 +28,7 @@
  * @link      http://www.gezere.com/
  */
 
-Namespace Gezere\Cli
+Namespace Gezere\Cli;
 
 class Colors {
     private static $foreground_colors = array(
