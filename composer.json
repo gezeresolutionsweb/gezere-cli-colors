@@ -1,0 +1,23 @@
+{
+    "name": "gezeresolutionsweb/library",
+    "description": "Tiny and somewhat usefull utility class library.",
+    "type": "library",
+    "keywords": [
+        "php",
+        "library",
+        "utilities"
+    ],
+    "homepage": "https://github.com/gezeresolutionsweb/library",
+    "license": "MIT", 
+    "authors": [
+        {
+            "name": "Sylvain Lévesque",
+            "email": "slevesque@gezere.com",
+            "homepage": "http://www.gezere.com",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
