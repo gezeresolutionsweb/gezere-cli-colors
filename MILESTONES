@@ -1,0 +1,19 @@
+MILESTONES
+
+version 0.1
+  * initial version
+
+version 0.2
+  * Refactorized all the MVC pattern to cope with CakePHP and RubyOnRails style.
+
+version 0.3
+  * Stabilize, tests, document anything.
+
+version 0.4
+  * Implement hooks and filter like WP.
+
+version 0.5
+    * Implements plugins.
+
+version 1.0
+    * Keep only unique and distinctive class. Removed all functionalities provides by other framework.

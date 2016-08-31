@@ -1,0 +1,23 @@
+* Transform all class with namespace gezere
+* Create an atoum test file for all library classes.
+* Integrate PHP 5.3 autoloader function that respect PSR0 specification https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
+
+<?php
+
+function autoload($className)
+{
+    $className = ltrim($className, '\\');
+    $fileName  = '';
+    $namespace = '';
+    if ($lastNsPos = strripos($className, '\\')) {
+        $namespace = substr($className, 0, $lastNsPos);
+        $className = substr($className, $lastNsPos + 1);
+        $fileName  = str_replace('\\', DIRECTORY_SEPARATOR, $namespace) . DIRECTORY_SEPARATOR;
+    }
+    $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
+
+    require $fileName;
+}
+
+* Follow standard http://www.phptherightway.com/#site-header
+* Composer ? http://packagist.org/
