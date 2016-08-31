@@ -11,8 +11,8 @@ DIRECTORIES
 
 Directories and files description.
 
-/library    	Project documentation
-/Tests		    Gezere Library Unit tests
+  * /library    	Project documentation
+  * /Tests		    Gezere Library Unit tests
 
 INSTALLATION
 ------------
