@@ -1,6 +1,6 @@
 # Gezere Library
 
-Tiny and somewhat usefull utility class.
+Tiny and somewhat usefull utility class library.
 
 LICENSE
 -------
